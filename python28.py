@@ -1,5 +1,5 @@
-a=int(input())
+s=int(input())
 arr=[]
-for i in range(a):
+for i in range(s):
  arr=map(int,input().split())
  print(max(arr))
